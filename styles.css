@@ -75,12 +75,14 @@ img {
     font-weight: bolder;
     color: #1f2937;
     margin-bottom: 32px;
+    margin-top: 20px;
 }
 
 .container {
     display:flex;
     justify-content: center;
     gap: 32px;
+    margin-bottom: 80px;
 }
 
 .info {
@@ -89,13 +91,59 @@ img {
 
 
 /*Section 3*/
+.section-3 {
+    background: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.quote {
+    font-size: 36px;
+    content: #1f2937;
+    margin-top: 80px;
+    margin-bottom: 5px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
 
-
+.signature {
+    font-weight: bold;
+    margin-bottom: 80px;
+}
 
 /*Section 4*/
+.section-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.box {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.left-side {
+    
+}
 
 
 
 /*Footer*/
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.copyright {
+    color:#f9faf8;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
